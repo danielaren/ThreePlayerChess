@@ -1,0 +1,1 @@
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChessContent\obj\Windows Phone\Debug\ThreePlayerChessContent.contentprojResolveAssemblyReference.cache

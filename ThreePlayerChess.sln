@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreePlayerChess", "ThreePlayerChess\ThreePlayerChess\ThreePlayerChess.csproj", "{D2A1A29C-E685-47B4-92BD-5D7F329B1F17}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "ThreePlayerChessContent", "ThreePlayerChess\ThreePlayerChessContent\ThreePlayerChessContent.contentproj", "{2611639A-BE5E-4970-A232-F2E20249C8BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2A1A29C-E685-47B4-92BD-5D7F329B1F17}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{D2A1A29C-E685-47B4-92BD-5D7F329B1F17}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{D2A1A29C-E685-47B4-92BD-5D7F329B1F17}.Debug|Windows Phone.Deploy.0 = Debug|Windows Phone
+		{D2A1A29C-E685-47B4-92BD-5D7F329B1F17}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{D2A1A29C-E685-47B4-92BD-5D7F329B1F17}.Release|Windows Phone.Build.0 = Release|Windows Phone
+		{D2A1A29C-E685-47B4-92BD-5D7F329B1F17}.Release|Windows Phone.Deploy.0 = Release|Windows Phone
+		{2611639A-BE5E-4970-A232-F2E20249C8BD}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{2611639A-BE5E-4970-A232-F2E20249C8BD}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

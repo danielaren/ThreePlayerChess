@@ -1,0 +1,19 @@
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\Content\Textures\BackgroundVersion1.xnb
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\ThreePlayerChess.dll
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\ThreePlayerChess.pdb
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\ThreePlayerChess.csprojResolveAssemblyReference.cache
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\ThreePlayerChess.dll
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\ThreePlayerChess.pdb
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\AppManifest.xaml
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\WMAppManifest.xml.g
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\ThreePlayerChess.xap
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\XapCacheFile.xml
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\ThreePlayerChess.xap
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\XapCacheFile.xml
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\AppManifest.xaml
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\WMAppManifest.xml.g
+c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\
