@@ -20,7 +20,64 @@ namespace ThreePlayerChess
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         Texture2D background;
+        Texture2D blackKing;
+        Rectangle blackKingRect;
         Rectangle mainFrame;
+        int xCord = 610;
+        int yCord = 241;
+        List<Square> board = new List<Square>();
+        Square square = new Square();
+
+        private void SetSquaresOnBoard(List<Square> board)
+        {
+            board.Add(new Square() { Name = "A1", X = 612, Y = 300 });
+        }
+
+        public class Square
+        {
+            private int x;
+
+            public int X
+            {
+                get { return x; }
+                set { x = value; }
+            }
+
+            private int y;
+
+            public int Y
+            {
+                get { return y; }
+                set { y = value; }
+            }
+
+            private string name;
+
+            public string Name
+            {
+                get { return name; }
+                set { name = value; }
+            }
+
+            public Square()
+            {
+         
+            }
+
+            public Square GetSquareByName(List<Square> board, string name)
+            {
+                Square square = new Square();
+                foreach (var item in board)
+                {
+                    if (item.Name.Equals(name))
+                    {
+                        square = item;
+                    }
+                }
+                return square;
+            }
+        }
+
 
         public Game1()
         {
@@ -38,7 +95,7 @@ namespace ThreePlayerChess
         /// Allows the game to perform any initialization it needs to before starting to run.
         /// This is where it can query for any required services and load any non-graphic
         /// related content.  Calling base.Initialize will enumerate through any components
-        /// and initialize them as well.
+        ///     and initialize them as well.
         /// </summary>
         protected override void Initialize()
         {
@@ -53,15 +110,20 @@ namespace ThreePlayerChess
         /// </summary>
         protected override void LoadContent()
         {
+            SetSquaresOnBoard(board);
+
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // load the background content
             background = Content.Load<Texture2D>("Textures\\BackgroundVersion1");
 
+            blackKing = Content.Load<Texture2D>("Textures\\BlackKing");
+
+
             // set the rectangle parameters
             mainFrame = new Rectangle(0, 0, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
-
+            blackKingRect = new Rectangle(square.GetSquareByName(board, "A1").X, square.GetSquareByName(board, "A1").Y, 30, 33);
             // TODO: use this.Content to load your game content here
         }
 
@@ -100,9 +162,26 @@ namespace ThreePlayerChess
 
             spriteBatch.Begin();
             spriteBatch.Draw(background, mainFrame, Color.White);
+            spriteBatch.Draw(blackKing, new Vector2(square.GetSquareByName(board, "A1").X, 
+                square.GetSquareByName(board, "A1").Y), Color.White);
+
+            MouseState mouseState = Mouse.GetState();
+            var mousePosition = new Point(mouseState.X, mouseState.Y);
+            blackKingRect = new Rectangle(xCord, yCord, xCord + 33, yCord + 30);
+
+            if (mouseState.LeftButton == ButtonState.Pressed)
+                    if (blackKingRect.Contains(mousePosition))
+                    {
+                        xCord = mouseState.Y;
+                        yCord = mouseState.X;
+                    }
+
             spriteBatch.End();
 
             base.Draw(gameTime);
         }
+
+
+
     }
 }

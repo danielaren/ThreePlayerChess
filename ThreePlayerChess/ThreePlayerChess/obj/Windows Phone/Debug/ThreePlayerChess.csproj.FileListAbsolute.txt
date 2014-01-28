@@ -11,9 +11,10 @@ c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlay
 bin\Windows Phone\Debug\
 c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\ThreePlayerChess.xap
 c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\XapCacheFile.xml
-c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\ThreePlayerChess.xap
-c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\XapCacheFile.xml
-c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\AppManifest.xaml
-c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\WMAppManifest.xml.g
-c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\WMAppManifest.xml
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\Content\Textures\BlackKing.xnb
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\ThreePlayerChess.xap
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\AppManifest.xaml
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\WMAppManifest.xml.g
+C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\WMAppManifest.xml
 bin\Windows Phone\Debug\

@@ -8,7 +8,16 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\Content\Textures\BackgroundVersion1.xnb</Output>
-      <Time>2014-01-23T09:22:39.6048612+01:00</Time>
+      <Time>2014-01-24T14:56:30.5741906+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\BlackKing.jpg</Source>
+      <Name>Textures\BlackKing</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\Content\Textures\BlackKing.xnb</Output>
+      <Time>2014-01-24T15:01:30.8679577+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -17,10 +26,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChessContent\</RootDirectory>
-      <LoggerRootDirectory>c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\</LoggerRootDirectory>
-      <IntermediateDirectory>c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\</IntermediateDirectory>
-      <OutputDirectory>c:\users\daniel\documents\visual studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChessContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\obj\Windows Phone\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Daniel\Documents\Visual Studio 2012\Projects\ThreePlayerChess\ThreePlayerChess\ThreePlayerChess\bin\Windows Phone\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
