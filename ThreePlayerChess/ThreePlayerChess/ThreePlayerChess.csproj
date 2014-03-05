@@ -76,6 +76,7 @@
     <Compile Include="Game.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="coordinates.txt" />
     <Content Include="Game.ico" />
     <Content Include="PhoneGameThumb.png">
       <XnaPlatformSpecific>true</XnaPlatformSpecific>

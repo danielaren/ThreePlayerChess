@@ -9,6 +9,8 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Input.Touch;
 using Microsoft.Xna.Framework.Media;
+using System.IO;
+using System.IO.IsolatedStorage;
 
 namespace ThreePlayerChess
 {
@@ -124,17 +126,25 @@ namespace ThreePlayerChess
                 square.GetSquareByName(board, name).Y), square.GetSquareByName(board, name).ColorBackGround);  
             }
             
-            //MouseState mouseState = Mouse.GetState();
-            //var mousePosition = new Point(mouseState.X, mouseState.Y);
+            MouseState mouseState = Mouse.GetState();
+            var mousePosition = new Point(mouseState.X, mouseState.Y);
             //blackKingRect = new Rectangle(xCord, yCord, xCord + 33, yCord + 30);
 
-            //if (mouseState.LeftButton == ButtonState.Pressed)
-            //        if (blackKingRect.Contains(mousePosition))
-            //        {
-            //            xCord = mouseState.Y;
-            //            yCord = mouseState.X;
-            //        }
 
+            if (mouseState.LeftButton == ButtonState.Pressed)
+            {
+              
+                IsolatedStorageFile myIsolatedStorage =
+    IsolatedStorageFile.GetUserStoreForApplication();
+
+                using (var writeFile = myIsolatedStorage.OpenFile("coordinates.txt", FileMode.Append))
+                using (var writer = new StreamWriter(writeFile))
+                {
+                    writer.WriteLine(mousePosition.ToString());    
+                }
+                
+                System.Diagnostics.Debug.WriteLine(mousePosition);
+            }
             spriteBatch.End();
 
             base.Draw(gameTime);
